@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+body{
+    font-family: 'Heebo';
+}
+.purple-bg{
+    background-color: #4e248c;
+    border-top-left-radius: 20px;
+    
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1280px;
+    margin: auto;
+    /* overflow-x: visible;
+    z-index: -1; */
+    
+}
+.logo img{
+    width: 100px;
+}
+.bar{
+    display: none;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: #fff;
+   
+
+}
+.nav-btn{
+    padding: 8px 10px;
+    background-color: #1fbdef;
+    color: #fff;
+    border: none;
+}
+.purple-heading{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: auto;
+   
+}
+.p-left{
+    width: 30%;
+}
+.p-left h1{
+    color: #fff;
+    font-size: 40px;
+    
+}
+.p-left p{
+    color:#f3eefb ;
+}
+.p-right{
+    width: 40%;
+}
+
+/* purple header end */
+
+
+.os{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-os{
+    width: 40%;
+}
+.rightos{
+    width: 40%;
+}
+.sub-r-os img{
+    width: 15px;
+}
+.sub-r-os p{
+    color: #727070;
+}
+
+
+/* Bottom-container */
+
+.bottom-container h1{
+    text-align: center;
+}
+.btm-cols{
+    display: flex;
+    justify-content: center;
+    max-width: 70rem;
+    margin: auto;
+   
+
+}
+.btm-col{
+    width: 15%;
+    box-shadow: 5px 5px 10px #1fbdef;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+.btm-content1{
+    background-color: #4e248c;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+}
+.btm-col img{
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+  
+}
+/* 
+nav bar mediaquery */
+
+@media screen and (max-width:730px){
+    .bar{
+        display: block;
+        font-size: 40px;
+        color: #fff;
+        margin-right: 20px;
+        
+    }
+    .list{
+        display:none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .p-left{
+        margin-left: 10px;
+    }
+    .p-left h1{
+        font-size: 25px;
+    }
+    .p-left p{
+        font-size: 10px;
+    }
+   
+}
+@media screen and (max-width:685px){
+    .btm-content h2{
+        font-size: 20px;
+    }
+    .btm-content1 h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .btm-content h2{
+        font-size: 17px;
+    }
+    .btm-content1 h2{
+        font-size: 17px;
+    }
+    .btm-content1 p{
+        font-size: 14px;
+    }
+    .btm-content p{
+        font-size: 14px;
+    }
+}
+
